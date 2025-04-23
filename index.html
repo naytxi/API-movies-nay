@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Movie Search</h1>
+    <p>Search for your favorite movies!</p>
+    <form id="form" class="form-group">
+        <input
+        type="search"
+        class="form-control"
+        id="searchId"
+        placeholder="buscar"
+        />
+        <input type="submit" value="Buscar Pelicula" class="btn btn-primary" />
+        </form>
+
+    <section id="movies" class="movies"></section>
+</html>
